@@ -1,0 +1,358 @@
+.topBar{
+background-color: rgb(193,0,0);
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 95px;
+z-index: 1;
+margin-left: -8px;
+}
+.logoHolder img{
+margin-left: 180px;
+margin-top: 15px;
+border-radius: 50%;
+border: 2px solid #fff;
+cursor: -webkit-grab;
+cursor: grab;
+width: 60px;
+height: 60px;
+}
+p.fh{
+margin-top: -60px;
+margin-left: 260px;
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: #fff;
+font-size:22px;
+font-weight: bolder;
+cursor: -webkit-grab;
+cursor: grab;
+}
+p.quote{
+margin-top: -25px;
+margin-left: 290px;
+font-size: 18px;
+color: #f4f4f4;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.menuSection{
+margin-top: -175px;
+}
+li{
+list-style: none;
+display: inline-block;
+float: left;
+}
+span.home{
+margin-left: 840px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+
+}
+span.aboutUs {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+
+span.logout {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+
+
+img{
+margin-left: 120px;
+overflow: hidden;
+}
+p.donate
+{
+margin-left: 320px;
+font-size: 30px;
+margin-top: -8px;
+}
+p.receive{
+margin-top: -65px;
+margin-left: 950px;
+font-size: 30px;
+}
+.dar{
+background-color:#d4bcc0;
+width: 1292px;
+margin-left: -10px;
+margin-top: -10px;
+overflow: hidden;
+height:580px;;
+}
+.dar1{
+background-color:#d4bcc0;
+margin-top: -30px;
+width: 1292px;
+margin-left: -10px;
+height: 60px;
+overflow: hidden;
+}
+.bimage{
+background-image: url("http://www.sivanandagurukul.org/images/slide_1.jpg");
+background-size: cover;
+height: 600px;
+width: 1294px;
+margin-top: -10px;
+margin-left: -12px;
+overflow: hidden;
+}
+p.q5{
+margin-left: 20px;
+color: white;
+font-size: 120px;
+
+}
+
+li{
+list-style: none;
+display: inline-block;
+float: left;
+margin-top: 120px;
+}
+span.donate{
+margin-left: 440px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+margin-top: -100px;
+}
+span.form{
+margin-left: 30px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+span.feed {
+margin-left: 30px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.menuSection1{
+background-color: rgb(213, 183, 230);
+height: 900px;
+width: 1294px;
+margin-left: -12px;
+}
+li{
+list-style: none;
+display: inline-block;
+float: left;
+margin-top: 120px;
+}
+span.donateimage{
+margin-left: 150px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+span.formimage{
+margin-left: 150px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+span.feedimage {
+margin-left: 150px;
+color: #000;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+img.i1{
+margin-left: -10px;
+width: 250px;
+position: relative;
+}
+.categories{
+	width:98%;
+	height:80%;
+	margin-left: 10px;
+    background-color: white;
+    margin-top: 7%;
+overflow: hidden;
+}
+.row{
+	width: 100%;
+    height: 30%;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    margin-left:15%;
+   margin-left: 12%;
+}
+
+.image img{
+	width: 18%;
+	height: 100%;
+    display: inline-block;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+	border: 1px solid black;
+border-radius: 5px;
+}
+h3{
+	margin-left:40%;
+}
+.categoryname{
+	width:20%;
+	height:-5%;
+	background-color:white;
+	margin-top: 20%;
+    margin-left: -20%;
+	display: inline-block;
+    float: left;
+
+}
+p.donate1{
+margin-left: 40px;
+font-size: 20px;
+margin-top: -30px;
+}
+p.form{
+margin-left: 20px;
+font-size: 20px;
+margin-top: -62px;
+margin-top: -30px;
+}
+p.feed{
+margin-left: 50px;
+font-size: 20px;
+margin-top: -62px;
+margin-top: -30px;
+}
+p.donate2{
+margin-left: 40px;
+font-size: 20px;
+margin-top: -30px;
+}
+p.form1{
+margin-left: 20px;
+font-size: 20px;
+margin-top: -62px;
+margin-top: -30px;
+}
+p.feed1{
+margin-left: 50px;
+font-size: 20px;
+margin-top: -62px;
+margin-top: -30px;
+}
+
+h3.donate2{
+margin-left: 45%;
+}
+hr{
+margin-top: -105px;
+}
+.categories1{
+	width: 98%;
+	height:80%;
+	margin-left: 10px;
+    background-color: white;
+    margin-top: 7%;
+overflow: hidden;
+}
+.row1{
+	width: 100%;
+    height: 43%;
+    background-color: white;
+    display: inline-block;
+    float: left;
+    margin-left:-1%;
+    margin-top: 2%;
+}
+.image1 img{
+	width: 18%;
+    height: 80%;
+    display: inline-block;
+    float: left;
+    margin-top: 1%;
+    margin-left: 6%;
+	border: 1px solid black;
+border-radius: 5px;
+}
+.contact{
+background-color: #45497b;
+width: 1290px;
+margin-left: -8px;
+margin-top:-40px;
+height: 500px;
+}
+p.contact1{
+margin-left: 550px;
+font-size: 40px;
+color: #fff;
+}
+p.in{
+color: lightgrey;
+font-size: 17px;
+}
+input{
+width: 250px;
+background-color:#45497b;
+height: 30px;
+font-size: 14px;
+color: white;
+border: 2px solid white;
+}
+form{
+margin-left: 200px;
+}
+.info{
+margin-top: -400px;
+margin-left: 780px;
+}
+textarea{
+width: 250px;
+background-color: #45497b;
+color: lightgrey;
+border: 2px solid white;
+
+}
+button{
+    background-color: rgba(169, 234, 37, 1);
+    font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px;
+}
+
+@media (min-width: 0px) and (max-width: 319px){
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+}
+@media (min-width: 481px) and (max-width: 694px){
+
+}
+@media (min-width: 695px) and (max-width: 960px){
+
+}
+@media (min-width: 961px) and (max-width: 1024px){
+
+}
+@media (min-width: 1025px) and (max-width: 1039px){
+.bimage{
+background-image: url("http://www.sivanandagurukul.org/images/slide_1.jpg");
+background-size: cover;
+height: 600px;
+width: 924px;
+margin-top: -10px;
+margin-left: -92px;
+overflow: hidden;
+}
+
+}

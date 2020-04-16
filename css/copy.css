@@ -1,0 +1,567 @@
+.topBar{
+background-color: #fff;
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 77px;
+z-index: 1;
+margin-left: -170px;
+}
+body
+{
+margin: 0 auto;
+width: 940px;
+background: #f8f8f8;
+overflow-x: hidden;
+
+}
+.logoHolder{
+width: 20px;
+margin-top: -3px;
+margin-left: 160px;
+display: inline-block;
+cursor: pointer;
+float: left;
+}
+.logoHolder img{
+width: 28px;
+margin-top: 29px;
+
+}
+.lineHolder{
+background: #262626;
+height: 28px;
+margin: 0 16px;
+width: 1px;
+display: inline-block;
+float: left;
+margin-top: 25px;
+margin-left: 23px;
+cursor: pointer;
+}
+.instagram img
+{
+display: inline-block;
+float: left;
+width: 114px;
+margin-top: 16px;
+margin-left: -8px;
+cursor: pointer;
+font-size: 10px;
+}
+.searchbarholder{
+margin-top: 25px;
+border: 0 solid #000;
+margin-left: 380px;
+}
+.searchInputIcon span
+{
+margin-left: 200px;
+margin-top: 10px;
+position: absolute;
+cursor: pointer;
+display: inline-block;
+float: left;
+}
+.fa.fa-search{
+position: absolute;
+margin-left: 280px;
+margin-top: 35px;
+font-size: 12px;
+color: #9a9a9a;
+}
+input{
+text-align: center;
+height: 28px;
+font-size: 15px;
+width: 215px;
+background: #f8f8f8;
+border-radius: 3px;
+margin-left: 220px;
+border: 1 solid #d2d2d2;
+margin-top: 25px;
+}
+.menuSection{
+margin-left: 1000px;
+margin-top: -25px;
+}
+.menuSection a{
+display: inline-block;
+float: left;
+margin-left: 10px;
+}
+.menuSection li{
+list-style: none;
+display: inline-block;
+float: left;
+height: 24px;
+width: 24px;
+background-repeat: no-repeat;
+background-position: -130px -286px;
+}
+.compass{
+cursor: pointer;
+font-size: 25px;
+}
+.heart{
+margin-left: 20px;
+font-size: 25px;
+cursor: pointer;
+}
+.user{
+font-size: 25px;
+margin-left: 38px;
+cursor: pointer;
+}
+.mainClass{
+padding-top: 160px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.feed{
+	float: left;
+	width:64%;
+	padding: 10px;
+	height: 150%;
+	border: 1 solid #d0d0d0;
+	margin-top: -20px;
+	background: #fff;
+}
+.profile{
+	float: right;
+	width: 30%;
+	padding: 10px;
+	height: 100%;
+	margin-top:-20px;
+}
+.photoname{
+	float: left;
+	width:95%;
+	padding: 10px;
+	height: 100px;
+	
+	margin-top: -20px;
+
+}
+.story{
+	float: left;
+	width:28%;
+	padding: 10px;
+	height: 28%;
+	border: 1 solid #d0d0d0;
+	margin-top: -670px;
+	margin-left: 28px;
+border-radius: 2px;
+background: #fff;
+}
+
+.suggestions{
+	float: left;
+	width:28%;
+	padding: 10px;
+	height: 25%;
+	border: 1 solid #d0d0d0;
+	margin-top: -433px;
+	margin-left: 28px;
+border-radius: 2px;
+background: #fff;
+}
+.photo{
+	    width: 50px;
+    height: 50px;
+    color: #003569;
+    text-decoration: none;
+    background-color: #fafafa;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 840px;
+    margin-top: 140px;
+}
+.photo img{
+cursor: pointer;
+}
+p.un{
+	    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-left: 68px;
+    margin-top: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+cursor: pointer;
+}
+p.nn{
+	    margin-left: 68px;
+    margin-top: 3px;
+    color: #9d9393;
+	font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+}
+p.st1{
+	 margin-top: 5px;
+margin-left: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: #9d9393;
+}
+p.st2{
+margin-left: 190px;
+margin-top: -30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+cursor: pointer;
+}
+p.st3{
+	 margin-top: 5px;
+margin-left: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+color: #9d9393;
+}
+p.st4{
+margin-left: 200px;
+margin-top: -30px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: bold;
+cursor: pointer;
+}
+@media (min-width: 0px) and (max-width: 319px)
+{
+	
+}
+@media (min-width: 320px) and (max-width: 480px)
+{
+
+}
+@media (min-width: 481px) and (max-width: 694px)
+{
+
+}
+@media (min-width: 499px) and (max-width: 694px)
+{	
+	.topBar{
+background-color: #fff;
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 77px;
+z-index: 1;
+margin-left: 3px;
+}
+.logoHolder img{
+width: 28px;
+margin-top: 29px;
+margin-left: -145px;
+}
+.lineHolder{
+background: #262626;
+height: 28px;
+margin: 0 16px;
+width: 1px;
+display: inline-block;
+float: left;
+margin-top: 25px;
+margin-left: -123px;
+cursor: pointer;
+}
+.instagram img
+{
+display: inline-block;
+float: left;
+width: 120px;
+margin-top: 16px;
+margin-left: -112px;
+cursor: pointer;
+font-size: 10px;
+}
+.fa.fa-search{
+position: absolute;
+margin-left: 270px;
+margin-top: 38px;
+font-size: 10px;
+color: #9a9a9a;
+}
+input{
+text-align: center;
+height: 28px;
+font-size: 14px;
+width: 215px;
+background: #f8f8f8;
+border-radius: 3px;
+margin-left: 203px;
+border: 1 solid #d2d2d2;
+margin-top: -35px;
+}
+p.st1{
+display: none;
+}
+p.st2{
+display: none;
+}
+.suggestions{
+display: none;
+}
+.photo img{
+display: none;
+}
+p.un{
+	display: none;
+}
+p.nn{
+	display: none;
+}
+.photoname{
+	display: none;
+
+}
+.story{
+	float: left;
+	width:64%;
+	padding: 10px;
+	height: 11%;
+	border: 1 solid #d0d0d0;
+	margin-top: -1240px;
+	margin-left: 0px;
+border-radius: 2px;
+background: #fff;
+}
+.mainClass{
+padding-top: 240px;
+}
+.menuSection{
+margin-left: 440px;
+margin-top: -35px;
+}
+
+
+
+
+}
+
+@media (min-width: 0px) and (max-width: 498px)
+{	
+	.topBar{
+background-color: #fff;
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 77px;
+z-index: 1;
+margin-left: 3px;
+}
+.logoHolder img{
+width: 28px;
+margin-top: 29px;
+margin-left: -145px;
+}
+.lineHolder{
+background: #262626;
+height: 28px;
+margin: 0 16px;
+width: 1px;
+display: inline-block;
+float: left;
+margin-top: 25px;
+margin-left: -123px;
+cursor: pointer;
+}
+.instagram img
+{
+display: inline-block;
+float: left;
+width: 120px;
+margin-top: 16px;
+margin-left: -112px;
+cursor: pointer;
+font-size: 10px;
+}
+.fa.fa-search{
+position: absolute;
+margin-left: 270px;
+margin-top: 38px;
+font-size: 10px;
+color: #9a9a9a;
+}
+input{
+display: none;
+}
+p.st1{
+display: none;
+}
+p.st2{
+display: none;
+}
+.suggestions{
+display: none;
+}
+.photo img{
+display: none;
+}
+p.un{
+	display: none;
+}
+p.nn{
+	display: none;
+}
+.photoname{
+	display: none;
+
+}
+.story{
+	float: left;
+	width:64%;
+	padding: 10px;
+	height: 11%;
+	border: 1 solid #d0d0d0;
+	margin-top: -1240px;
+	margin-left: 0px;
+border-radius: 2px;
+background: #fff;
+}
+.mainClass{
+padding-top: 240px;
+}
+.menuSection{
+margin-left: 335px;
+margin-top: 25px;
+}
+.fa.fa-search
+{
+display: none;
+}
+
+
+
+
+
+}
+@media (min-width: 641px) and (max-width: 960px)
+{
+.topBar{
+background-color: #fff;
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 77px;
+z-index: 1;
+margin-left: 0px;
+}
+.menuSection{
+margin-left: 620px;
+margin-top: -25px;
+}
+.logoHolder{
+width: 20px;
+margin-top: -3px;
+margin-left: 20px;
+display: inline-block;
+float: left;
+cursor: pointer;
+}
+input{
+text-align: center;
+height: 28px;
+font-size: 14px;
+width: 215px;
+background: #f8f8f8;
+border-radius: 3px;
+margin-left: 97px;
+border: 1 solid #d2d2d2;
+margin-top: 24px;
+}
+.fa.fa-search{
+position: absolute;
+margin-left: 165px;
+margin-top: 34px;
+font-size: 10px;
+color: #9a9a9a;
+}
+.mainClass{
+padding-top: 240px;
+}
+.feed{
+	float: left;
+	width:62%;
+	padding: 10px;
+	height: 150%;
+	border: 1 solid #d0d0d0;
+	margin-top: -20px;
+	background: #fff;
+	margin-left: 90px;
+}
+.story{
+	float: left;
+	width:62%;
+	padding: 10px;
+	height: 11%;
+	border: 1 solid #d0d0d0;
+	margin-top: -1930px;
+	margin-left: 90px;
+border-radius: 2px;
+background: #fff;
+}
+p.st1{
+display: none;
+}
+p.st2{
+display: none;
+}
+.suggestions{
+display: none;
+}
+.photo img{
+display: none;
+}
+p.un{
+	display: none;
+}
+p.nn{
+	display: none;
+}
+.photoname{
+	display: none;
+
+}
+
+}
+@media (min-width: 961px) and (max-width: 1024px)
+{
+
+}
+@media (min-width: 1025px) and (max-width: 1281px)
+{
+
+}

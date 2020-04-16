@@ -1,0 +1,485 @@
+body{
+min-height: 100%;
+overflow-x: hidden;
+}
+.topBar{
+background-color: rgb(193,0,0);
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 100%;
+height: 98px;
+z-index: 1;
+margin-left: -8px;
+}
+.logoHolder img{
+margin-left: 180px;
+margin-top: 15px;
+border-radius: 50%;
+border: 2px solid #fff;
+cursor: -webkit-grab;
+cursor: grab;
+width: 60px;
+height: 60px;
+}
+p.fh{
+margin-top: -60px;
+margin-left: 260px;
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: #fff;
+font-size:22px;
+font-weight: bolder;
+cursor: -webkit-grab;
+cursor: grab;
+}
+p.quote{
+margin-top: -25px;
+margin-left: 290px;
+font-size: 18px;
+color: #f4f4f4;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.menuSection{
+margin-top: -55px;
+}
+li{
+list-style: none;
+display: inline-block;
+float: left;
+}
+span.home{
+margin-left: 740px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+
+}
+span.aboutUs {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+span.login {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+span.register {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+.about{
+margin-top: 97px;
+background-image: url("https://www.projectpearls.org/wp-content/uploads/2019/03/projectpearls-programs-feeding-hero-898x550.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 1295px;
+height: 850px;
+margin-left: -10px;
+overflow: hidden;
+}
+p.q4{
+color: #fff;
+font-size: 80px;
+margin-left:1000px;
+margin-top: 140px;
+}
+.aboutfh{
+background-color: rgb(199, 232, 255);
+top: 72px;
+left: 198px;
+width: 900px;
+position: absolute;
+pointer-events: none;
+margin-top: 900px;
+font-size: 20px;
+
+}
+.sideImages{
+background-color: rgb(187, 221, 182);
+height: 550px;
+width: 1290px;
+margin-left: -8px;
+margin-top: 240px;
+overflow: hidden;
+}
+img{
+margin-left: 15px;
+width: 300px;
+height: 300px;
+margin-top: 90px;
+}
+p.fhkb{
+margin-left: 470px;
+font-size: 30px;
+}
+.sideImages1{
+background-color: rgb(215, 196, 221);
+height: 550px;
+width: 1290px;
+margin-left: -8px;
+margin-top: 0px;
+overflow: hidden;
+}
+img.img1{
+margin-left: 95px;
+width: 300px;
+height: 300px;
+margin-top: 90px;
+}
+p.fhkm{
+margin-left: 470px;
+font-size: 30px;
+}
+.contact{
+background-color: #45497b;
+width: 1290px;
+margin-left: -8px;
+margin-top:-40px;
+height: 500px;
+}
+p.contact1{
+margin-left: 550px;
+font-size: 40px;
+color: #fff;
+}
+p.in{
+color: lightgrey;
+font-size: 17px;
+}
+input{
+width: 250px;
+background-color:#45497b;
+height: 30px;
+font-size: 14px;
+color: lightgrey;
+border: 2px solid white;
+}
+form{
+margin-left: 200px;
+}
+.info{
+margin-top: -400px;
+margin-left: 780px;
+}
+textarea{
+width: 250px;
+background-color: #45497b;
+color: lightgrey;
+border: 2px solid white;
+
+}
+button{
+    background-color: rgba(169, 234, 37, 1);
+    font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px;
+}
+@media (min-width: 0px) and (max-width: 319px)
+{	
+
+}
+@media (min-width: 320px) and (max-width: 480px)
+{	
+
+
+}
+@media (min-width: 481px) and (max-width: 694px)
+{	
+
+
+}
+@media (min-width: 695px) and (max-width: 960px)
+{
+span.home{
+margin-left: 380px;
+font-size: 13px;
+}
+span.aboutUs {
+margin-left: 20px;
+font-size: 13px;
+}
+span.login {
+margin-left: 20px;
+font-size: 13px;
+}
+span.register {
+margin-left: 20px;
+font-size: 13px;
+}
+.logoHolder img{
+margin-left: 50px;
+width:40px;
+height: 40px;
+margin-top: 23px;
+}
+p.fh{
+margin-left: 110px;
+margin-top: -45px;
+font-size: 18px;
+}
+p.quote{
+margin-left: 120px;
+font-size: 18px;
+margin-top: -15px;
+}
+.about{
+margin-top: 97px;
+width: 102%;
+height: 700px;
+margin-left: -10px;
+}
+p.q4{
+font-size: 80px;
+margin-left:0px;
+margin-top: 140px;
+}
+.aboutfh{
+top: 70px;
+left:10px;
+width: 675px;
+margin-top: 750px;
+font-size: 18px;
+
+}
+.sideImages{
+height: 420px;
+width: 1290px;
+margin-left: -10px;
+margin-top: 240px;
+}
+img{
+margin-left: 18px;
+width: 150px;
+height: 150px;
+margin-top: 50px;
+}
+p.fhkb{
+margin-left: 150px;
+}
+.sideImages1{
+margin-left: -18px;
+height: 490px;
+}
+img.img1{
+margin-left:40px;
+width: 180px;
+height: 180px;
+margin-top: 90px;
+}
+p.fhkm{
+margin-left: 170px;
+}
+.info{
+margin-left: 400px;
+}
+p.contact1{
+margin-left: 260px;
+}
+input{
+width: 250px;
+margin-left: -170px;
+}
+textarea{
+margin-left: -170px;
+}
+button{
+   margin-left: -170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 961px) and (max-width: 1024px)
+{
+span.home{
+margin-left: 580px;
+}
+span.aboutUs {
+margin-left: 30px;
+}
+span.login {
+margin-left: 30px;
+}
+span.register {
+margin-left: 30px;
+}
+.logoHolder img{
+margin-left: 100px;
+}
+p.fh{
+margin-left: 180px;
+}
+p.quote{
+margin-left: 200px;
+}
+.about{
+margin-top: 97px;
+width: 102%;
+height: 850px;
+margin-left: -10px;
+}
+p.q4{
+font-size: 80px;
+margin-left:5px;
+margin-top: 140px;
+}
+.aboutfh{
+top: 72px;
+left:30px;
+width: 900px;
+margin-top: 900px;
+font-size: 20px;
+
+}
+.sideImages{
+height: 530px;
+width: 1290px;
+margin-left: -10px;
+margin-top: 240px;
+}
+img{
+margin-left: 15px;
+width: 220px;
+height: 220px;
+margin-top: 90px;
+}
+p.fhkb{
+margin-left: 300px;
+}
+.sideImages1{
+margin-left: -18px;
+}
+img.img1{
+margin-left:73px;
+width: 230px;
+height: 230px;
+margin-top: 90px;
+}
+p.fhkm{
+margin-left: 300px;
+}
+.info{
+margin-left: 550px;
+}
+p.contact1{
+margin-left: 400px;
+}
+input{
+width: 250px;
+margin-left: -100px;
+}
+textarea{
+margin-left: -100px;
+}
+button{
+   margin-left: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 1025px) and (max-width: 1039px)
+{
+span.home{
+margin-left: 640px;
+}
+span.aboutUs {
+margin-left: 30px;
+}
+span.login {
+margin-left: 30px;
+}
+span.register {
+margin-left: 30px;
+}
+.about{
+margin-top: 97px;
+width: 102%;
+height: 850px;
+margin-left: -10px;
+}
+p.q4{
+font-size: 80px;
+margin-left:10px;
+margin-top: 140px;
+}
+.aboutfh{
+top: 72px;
+left:75px;
+width: 900px;
+margin-top: 900px;
+font-size: 20px;
+
+}
+.sideImages{
+height: 550px;
+width: 1290px;
+margin-left: -10px;
+margin-top: 240px;
+}
+img{
+margin-left: 15px;
+width: 240px;
+height: 240px;
+margin-top: 90px;
+}
+p.fhkb{
+margin-left: 350px;
+}
+.sideImages1{
+margin-left: -8px;
+}
+img.img1{
+margin-left:73px;
+width: 250px;
+height: 250px;
+margin-top: 90px;
+}
+p.fhkm{
+margin-left: 350px;
+}
+
+
+.info{
+margin-top: -400px;
+margin-left: 600px;
+}
+p.contact1{
+margin-left: 450px;
+}
+
+
+}
+
+
+

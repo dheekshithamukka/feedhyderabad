@@ -1,0 +1,732 @@
+body{
+min-height: 100%;
+overflow-x: hidden;
+}
+.topBar{
+background-color: rgb(193,0,0);
+border-bottom: 1px solid rgba(0, 0, 0, .0975);
+position: fixed;
+top: 0;
+width: 110%;
+height: 98px;
+z-index: 1;
+margin-left: -18px;
+}
+.logoHolder img{
+margin-left: 180px;
+margin-top: 15px;
+border-radius: 50%;
+border: 2px solid #fff;
+cursor: -webkit-grab;
+cursor: grab;
+width: 60px;
+height: 60px;
+}
+p.fh{
+margin-top: -60px;
+margin-left: 260px;
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: #fff;
+font-size:22px;
+font-weight: bolder;
+cursor: -webkit-grab;
+cursor: grab;
+}
+p.quote{
+margin-top: -25px;
+margin-left: 290px;
+font-size: 18px;
+color: #f4f4f4;
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.hamburger{
+	margin-top:26px;
+	margin-left: 440px;
+	width:20px;
+	font-size: 23px;
+	display:none;
+}
+.hamburgermenu{
+	display:none;
+	width: 145px;
+    margin-top: 30px;
+    margin-left: -102px;
+    list-style: none;
+    background-color: #e6eaed;
+    cursor: pointer;
+	border:0.1px solid rgba(0,0,0,.0975);
+	color:white;
+}
+.hamburgermenu li:hover{
+	background-color:#60a7f3;
+}
+.menuSection{
+margin-top: -55px;
+}
+li{
+list-style: none;
+display: inline-block;
+float: left;
+}
+span.home{
+margin-left: 740px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+
+}
+span.aboutUs {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+span.login {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+span.register {
+margin-left: 30px;
+color: #fff;
+font-family: "Comic Sans MS", cursive, sans-serif;
+cursor: -webkit-grab;
+cursor: grab;
+}
+.bimage{
+background-image: url("https://images.yourstory.com/cs/wordpress/2017/09/Feeding-India-1.jpg?fm=png&auto=format");
+background-repeat: no-repeat;
+margin-top: 75px;
+background-position: center;
+background-size: cover;
+height: 700px;
+width: 1290px;
+margin-left: -8px;
+overflow: hidden;
+}
+p.q1{
+margin-left: 920px;
+font-size: 30px;
+color: rgb(193,0,0);
+font-weight: bold;
+margin-top: 30px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+overflow: hidden;
+}
+.sideImages{
+background-color: rgb(177, 185, 221);
+height: 480px;
+width: 1290px;
+margin-left: -8px;
+margin-top: 0px;
+overflow: hidden;
+}
+img{
+margin-left: 95px;
+width: 300px;
+height: 300px;
+margin-top: 90px;
+}
+p.q2{
+font-size: 55px;
+color: rgb(128, 63, 61);
+margin-left: 240px;
+width: 2220px;
+margin-top: 30px;
+
+}
+.quote2{
+background-color: #d5edff;
+margin-left: -8px;
+width: 1290px;
+margin-top: 1px;
+overflow: hidden;
+}
+.bimage1{
+background-image: url("https://previews.123rf.com/images/gubernat/gubernat1801/gubernat180100118/93410469-portion-of-pizza-on-a-plate-and-ketchup-in-a-bowl-in-the-background-the-remaining-part-of-the-pizza-.jpg");
+background-repeat: no-repeat;
+margin-top:0px;
+background-position: center;
+background-size: cover;
+height: 700px;
+width: 1290px;
+margin-left: -8px;
+overflow: hidden;
+}
+p.q3{
+margin-left: 880px;
+font-size: 80px;
+color: #fff;
+font-weight: bold;
+margin-top: 2px;
+font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+.button {
+  background-color: rgb(193,0,0);
+  margin-left: -1000px;
+  font-size: 26px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+margin-top: 70px;
+}
+.donateButton{
+ margin-left: 990px;
+}
+.contact{
+background-color: #45497b;
+width: 1290px;
+margin-left: -8px;
+margin-top:-40px;
+height: 625px;
+}
+p.contact1{
+margin-left: 550px;
+font-size: 40px;
+color: #fff;
+}
+p{
+color: lightgrey;
+font-size: 17px;
+}
+input{
+width: 250px;
+background-color:#45497b;
+height: 30px;
+font-size: 14px;
+color: lightgrey;
+border: 2px solid white;
+}
+form{
+margin-left: 200px;
+}
+.info{
+margin-top: -400px;
+margin-left: 780px;
+}
+textarea{
+width: 250px;
+background-color: #45497b;
+color: lightgrey;
+border: 2px solid white;
+
+}
+button{
+    background-color: rgba(169, 234, 37, 1);
+    font: normal normal normal 12px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 2px 2px 2px 2px;
+    padding: 5px;
+}
+
+@media (min-width:0px) and (max-width:319px){
+	.menuSection{
+		display:none;
+	}
+	.hamburger{
+		display:inline-block;
+		    margin-top: -35px;
+margin-left: 138px;
+	}
+	.btn-secondary{
+		margin-left:50px;
+		width:150px;
+	}
+.logoHolder img{
+margin-left: 15px;
+width:40px;
+height: 40px;
+margin-top: 27px;
+}
+p.fh{
+display: none;
+}
+p.quote{
+display: none;
+}
+.bimage{
+width: 102%;
+    height: 420px;
+}
+p.q1{
+    margin-left: 173px;
+    font-size: 20px;
+}
+p.q2{
+    margin-left: 11px;
+    font-size: 7px;
+    margin-top: 12px;
+}
+.sideImages{
+display: none;
+}
+img{
+display: none;
+}
+.bimage1{
+height: 495px;
+width: 102%;
+}
+p.q3{
+    margin-left: 7px;
+    font-size: 30px;
+    margin-top: 12px;
+}
+.donateButton{
+ margin-left: 23px;
+margin-top: -20px;
+}
+.button {
+ font-size: 12px;
+}
+
+.info{
+margin-left: 143px;
+
+}
+.contact{
+display: none;
+}
+
+
+
+
+
+
+
+
+
+	
+}
+@media (min-width:320px) and (max-width:480px){
+	.menuSection{
+		display:none;
+	}
+	.hamburger{
+		display:inline-block;
+		 margin-top: -55px;
+margin-left: 305px;
+		 
+	}
+	
+	.btn-secondary{
+		margin-left:50px;
+		width:150px;
+	}
+.logoHolder img{
+margin-left: 15px;
+width:40px;
+height: 40px;
+margin-top: 27px;
+}
+p.fh{
+    margin-left: 60px;
+    margin-top: -45px;
+font-size: 15px;
+}
+p.quote{
+    margin-left: 64px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.bimage{
+width: 102%;
+    height: 520px;
+}
+p.q1{
+    margin-left: 173px;
+    font-size: 20px;
+}
+p.q2{
+    margin-left: 54px;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.sideImages{
+    width: 120%;
+    margin-left: -35px;
+    height: 40%;
+}
+img{
+    margin-left: 25px;
+    width: 92px;
+    height: 92px;
+}
+.bimage1{
+height: 600px;
+width: 102%;
+}
+p.q3{
+    margin-left: 25px;
+    font-size: 60px;
+}
+.donateButton{
+ margin-left: 82px;
+margin-top: -20px;
+}
+.info{
+margin-left: 143px;
+
+}
+p.contact1{
+margin-left: 68px;
+}
+input{
+width: 115px;
+margin-left: -170px;
+}
+textarea{
+margin-left: -170px;
+width: 115px;
+height: 120px;
+}
+button{
+   margin-left: -170px;
+}
+form{
+margin-left: 185px;
+}
+
+p {
+   font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+}
+@media (min-width:481px) and (max-width:694px){
+	.menuSection{
+		display:none;
+	}
+	.hamburger{
+		display:inline-block;
+		margin-top: -56px;
+		margin-left: 468px;
+	}
+	.btn-secondary{
+		margin-left:120px;
+		width:150px;
+	}
+.logoHolder img{
+margin-left: 50px;
+width:40px;
+height: 40px;
+margin-top: 23px;
+}
+p.fh{
+margin-left: 110px;
+margin-top: -45px;
+font-size: 18px;
+}
+p.quote{
+margin-left: 120px;
+font-size: 18px;
+margin-top: -15px;
+}
+.bimage{
+width: 102%;
+}
+p.q1{
+margin-left: 235px;
+}
+p.q2{
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.sideImages{
+width: 120%;
+margin-left: -35px;
+height: 47%;
+}
+img{
+    margin-left: 38px;
+    width: 130px;
+    height: 130px;
+}
+.bimage1{
+height: 700px;
+width: 102%;
+}
+p.q3{
+margin-left: 75px;
+}
+.donateButton{
+ margin-left: 170px;
+margin-top: -20px;
+}
+.info{
+margin-left: 235px;
+
+}
+p.contact1{
+margin-left: 150px;
+}
+input{
+width: 200px;
+margin-left: -170px;
+}
+textarea{
+margin-left: -170px;
+width: 200px;
+height: 120px;
+}
+button{
+   margin-left: -170px;
+}
+form{
+margin-left: 185px;
+}
+
+p {
+   font-size: 15px;
+}
+
+
+
+	
+	
+}@media (min-width: 695px) and (max-width: 960px)
+{
+span.home{
+margin-left: 380px;
+font-size: 13px;
+}
+span.aboutUs {
+margin-left: 20px;
+font-size: 13px;
+}
+span.login {
+margin-left: 20px;
+font-size: 13px;
+}
+span.register {
+margin-left: 20px;
+font-size: 13px;
+}
+.logoHolder img{
+margin-left: 50px;
+width:40px;
+height: 40px;
+margin-top: 23px;
+}
+p.fh{
+margin-left: 110px;
+margin-top: -45px;
+font-size: 18px;
+}
+p.quote{
+margin-left: 120px;
+font-size: 18px;
+margin-top: -15px;
+}
+.bimage{
+width: 102%;
+}
+p.q1{
+margin-left: 470px;
+}
+p.q2{
+margin-left: 90px;
+font-size: 30px;
+}
+.sideImages{
+width: 120%;
+margin-left: -35px;
+height: 55%;
+}
+img{
+margin-left: 35px;
+width: 200px;
+height: 200px;
+}
+.bimage1{
+height: 700px;
+width: 102%;
+}
+p.q3{
+margin-left: 290px;
+}
+.donateButton{
+ margin-left: 400px;
+margin-top: -20px;
+}
+.info{
+margin-left: 400px;
+}
+p.contact1{
+margin-left: 260px;
+}
+input{
+width: 250px;
+margin-left: -170px;
+}
+textarea{
+margin-left: -170px;
+}
+button{
+   margin-left: -170px;
+}
+
+
+
+
+
+
+
+
+}
+@media (min-width: 961px) and (max-width: 1024px)
+{
+span.home{
+margin-left: 580px;
+}
+span.aboutUs {
+margin-left: 30px;
+}
+span.login {
+margin-left: 30px;
+}
+span.register {
+margin-left: 30px;
+}
+.logoHolder img{
+margin-left: 100px;
+}
+p.fh{
+margin-left: 180px;
+}
+p.quote{
+margin-left: 200px;
+}
+.bimage{
+width: 102%;
+}
+p.q1{
+margin-left: 610px;
+}
+p.q2{
+margin-left: 40px;
+}
+.sideImages{
+width: 110%;
+margin-left: -75px;
+}
+img{
+margin-left: 85px;
+width: 250px;
+height: 250px;
+}
+.bimage1{
+height: 700px;
+width: 102%;
+}
+p.q3{
+margin-left: 550px;
+}
+.donateButton{
+ margin-left: 650px;
+margin-top: -20px;
+}
+.info{
+margin-left: 550px;
+}
+p.contact1{
+margin-left: 400px;
+}
+input{
+width: 250px;
+margin-left: -100px;
+}
+textarea{
+margin-left: -100px;
+}
+button{
+   margin-left: -100px;
+}
+
+
+
+
+
+
+
+}
+@media (min-width: 1025px) and (max-width: 1039px)
+{
+span.home{
+margin-left: 640px;
+}
+span.aboutUs {
+margin-left: 30px;
+}
+span.login {
+margin-left: 30px;
+}
+span.register {
+margin-left: 30px;
+}
+.bimage{
+width: 102%;
+}
+p.q1{
+margin-left: 720px;
+}
+p.q2{
+margin-left: 90px;
+}
+.quote2{
+width: 102%;
+}
+.sideImages{
+width: 110%;
+margin-left: -70px;
+}
+img{
+margin-left: 95px;
+width: 250px;
+height: 250px;
+}
+.bimage1{
+height: 700px;
+width: 102%;
+}
+p.q3{
+margin-left: 650px;
+}
+.donateButton{
+ margin-left: 750px;
+}
+.info{
+margin-top: -400px;
+margin-left: 600px;
+}
+p.contact1{
+margin-left: 450px;
+}
+
+
+}
